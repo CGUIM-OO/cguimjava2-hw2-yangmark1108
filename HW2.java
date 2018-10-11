@@ -6,7 +6,9 @@ import java.util.Scanner;
  * @author TODO: please add student ID and name here
  * B0444205 楊兆寧
  * Try to write some comments for your codes (methods, 15 points)
- * 
+ * 首先在Card的class中，我先運用兩個switch迴圈，裡面有su、rk這兩個變數，su是拿來存放花色的名稱，rk是用來存放1~13的名稱，最後使用System.out.println把他print出來
+ * 再來在Dec的class中，我先使用3層for迴圈，最外面那層是根據幾付牌決定裡面那兩個要跑幾次，之後第二層是因為有4花色所以跑4次，最後一層是因為1花色有13張所以跑13次，在printDec中
+ * 使用for迴圈裡面放get來抓陣列裡的資料，使用printCard這個method來印出來
  */
 public class HW2 {
 
